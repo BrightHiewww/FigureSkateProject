@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Figure-Skating_Partner</title>
+    <!-- 
+        DES322 Class-08
+        StudentID: 6222780569
+        Student Name: Thanakit Lerttomolsakul
+        TA Group: G4 Titipakorn Prakayapan
+        Digital Business: An online store for surf skates
+        Created Date: 14-Oct-2021
+    -->
+    <style>
+        .access-point1 {text-align: center; }
+        .access-point2 {text-align: center; }
+    </style>
+</head>
+<body>
+
+
+    <div name="site-header"> 
+        <!-- Header  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Figure Skating Partner</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Find your partner" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 mr-sm-2" type="submit">Search</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0 mr-sm-2" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="logout">Log Out</button>
+                </form>
+            </div>
+        </nav>
+        <ul class="nav nav-pills nav-fill my-2">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Suggestion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div name="site-nav"> 
+
+        <div class="py-4">
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="/FS_images/bbbb.jpg" alt="First slide" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>SHOES</h1>
+                                <p>Performance characteristics such as speed, momentum, balance, freedom of movements and precision of turns and jumps are often defined by the quality and parameters of figure skating blades. </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="/FS_images/rrrrr.jpg" alt="Second slide" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>TECHNIQUES</h1>
+                                <p>The beginner skater wants to be able to do more than go forward, turn and stop. This skater will take group lessons and spend additional time on the ice practicing skills.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="/FS_images/ffff.jpeg" alt="Third slide" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>BLADE</h1>
+                                <p>Performance characteristics such as speed, momentum, balance, freedom of movements and precision of turns and jumps are often defined by the quality and parameters of figure skating blades. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>  
+            </div>
+        </div>
+
+
+        
+        <!-- Nev and Carousel -->
+    
+    </div>
+
+
+    <div name="site-border" class="access-point1"> 
+        <div class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!-- Video Card -->
+                        <div class="card" style="width: 35rem;">
+                            <video src="FS_videos/Yuzuru Hanyu (JPN) _ Men's Short Program _ ISU Figure Skating World Championships.mp4"></video>
+                            <div class="card-body">
+                                <h5 class="card-title">"YUZURU HANYU"</h5>
+                                <p class="card-text">He is a two-time Olympic champion (2014, 2018), a two-time World champion (2014, 2017), a four-time Grand Prix Final champion (2013–2016), a Four Continents champion (2020), the 2010 World Junior champion, the 2009–10 Junior Grand Prix Final champion, and a five-time Japanese national champion (2012–2015, 2020). </p>
+                                <a href="#" class="btn btn-primary">See more</a>
+                            </div>
+                        </div>
+                        <!-- Video Card -->
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <!-- Horizontal Card -->
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-mb-3">
+                                            <img src="/FS_images/cccc.jpeg" style="height: 165px;" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-left">Top Trend</h5>
+                                                <p class="card-text text-left">Cross cut picks
+                                                    Chrome finish
+                                                    Standard heel
+                                                    Intermediate profile
+                                                    Freestyle usage
+                                                    8' Rocker
+                                                    7/16" Radius of Hollow</p>
+                                                <p class="card-text text-right">
+                                                    <a href="#" class="btn btn-primary">More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Horizontal Card -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <!-- Horizontal Card -->
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-mb-3">
+                                            <img src="/FS_images/cccc.jpeg" style="height: 165px;" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-left">Best Seller</h5>
+                                                <p class="card-text text-left">Cross cut picks
+                                                    Chrome finish
+                                                    Standard heel
+                                                    Intermediate profile
+                                                    Freestyle usage
+                                                    8' Rocker
+                                                    7/16" Radius of Hollow</p>
+                                                <p class="card-text text-right">
+                                                    <a href="#" class="btn btn-primary">More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Horizontal Card -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <!-- Horizontal Card -->
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-mb-3">
+                                            <img src="/FS_images/cccc.jpeg" style="height: 165px;" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title text-left">Promotion</h5>
+                                                <p class="card-text text-left">Cross cut picks
+                                                    Chrome finish
+                                                    Standard heel
+                                                    Intermediate profile
+                                                    Freestyle usage
+                                                    8' Rocker
+                                                    7/16" Radius of Hollow</p>
+                                                <p class="card-text text-right">
+                                                    <a href="#" class="btn btn-primary">More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Horizontal Card -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <div name="site-footer" style="text-align: center; background-color:azure"> 
+        <div class="container p-3">
+            <div class="row">
+                <div class="col text-left">
+                    
+                    <form class="form-inline my-2 my-lg-0">
+                        Contact us :
+                        <input class="form-control mr-sm-2 ml-sm-2" type="search" placeholder="Enter your email" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 mr-sm-2" type="send">Send</button>
+                    </form>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input class="form-control mr-sm-2 ml-sm-2 mt-3" style="max-width: 700px; height: 100px;"type="description" placeholder="Description" aria-label="Search">
+                </div>
+                <div class="col">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="/FS_images/ssss.png" style="height: 75px;" alt="...">
+                            </div>
+                            <div class="col-sm">
+                                <img src="/FS_images/uuuu.png" style="height: 75px;" alt="...">
+                            </div>
+                            <div class="col-sm">
+                                <img src="/FS_images/wwww.png" style="height: 75px;" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+</html>
